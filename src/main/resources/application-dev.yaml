@@ -1,0 +1,38 @@
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:mysql://localhost:3306/server_template
+    username: root
+    password: nilcode
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      minimum-idle: 5
+      maximum-pool-size: 10
+      max-lifetime: 60000
+      connection-test-query: SELECT 1
+      auto-commit: true
+      idle-timeout: 30000
+      connection-timeout: 10000
+sa-token:
+  timeout: 86400
+  activity-timeout: 3600
+  token-style: tik
+server:
+  port: 8000
+  servlet:
+    encoding:
+      charset: utf-8
+mybatis-plus:
+  global-config:
+    db-config:
+      logic-delete-value: true
+      logic-not-delete-value: false
+logging:
+  level:
+    server.template.mapper: debug
+tencent:
+  cos:
+    region: ap-chongqing
+    bucket: dev-edoclin-1304812488
+    secret-id: AKID3vYuznLdeQwBAsTosfBRP6XiuqVt1sSl
+    secret-key: 5tQggOq0tWtzoNeeNq2xbz6wVnoY2FBq
