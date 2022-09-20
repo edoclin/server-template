@@ -1,6 +1,6 @@
 package server.template.config
 
-import com.toolgeo.server.util.slf4j.Slf4j
+import server.template.util.slf4j.Slf4j
 import org.springframework.boot.ApplicationArguments
 import org.springframework.boot.ApplicationRunner
 import org.springframework.context.annotation.Configuration

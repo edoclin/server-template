@@ -1,4 +1,4 @@
-package com.toolgeo.server.util.slf4j
+package server.template.util.slf4j
 
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory

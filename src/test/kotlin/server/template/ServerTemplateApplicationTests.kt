@@ -4,8 +4,6 @@ import cn.hutool.core.bean.BeanUtil
 import cn.hutool.core.thread.ThreadUtil
 import cn.hutool.json.JSONUtil
 import com.baomidou.mybatisplus.extension.kotlin.KtQueryWrapper
-import com.toolgeo.server.util.slf4j.Slf4j
-import com.toolgeo.server.util.slf4j.Slf4j.Companion.log
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
 import org.springframework.test.context.ActiveProfiles
